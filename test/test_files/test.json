@@ -1,0 +1,10 @@
+{
+  "first_level_int": 123,
+  "first_level_bool": true,
+  "first_level_object": {
+    "second_level_string": "hello",
+    "second_level_object": {
+      "third_level_int": 456
+    }
+  }
+}
