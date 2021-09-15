@@ -13,7 +13,9 @@ class JsonFlattenerTest < Minitest::Test
       "first_level_int"=>123,
       "first_level_bool"=>true,
       "first_level_object.second_level_string"=>"hello",
-      "first_level_object.second_level_object.third_level_int"=>456
+      "first_level_object.second_level_object.third_level_int"=>456,
+      "first_level_object.second_level_object.third_level_null"=>nil,
+      "first_level_object.second_level_object.third_level_double"=>999.444,
     }
     assert_equal(expected, parsed_output)
   end

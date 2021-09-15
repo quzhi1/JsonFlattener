@@ -4,7 +4,9 @@
   "first_level_object": {
     "second_level_string": "hello",
     "second_level_object": {
-      "third_level_int": 456
+      "third_level_int": 456,
+      "third_level_null": null,
+      "third_level_double": 999.444
     }
   }
 }
